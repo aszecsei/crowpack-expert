@@ -1,0 +1,13 @@
+name = "Crowpack Expert"
+author = "crow-maki"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "bb379da9a8f6aaae86c5ac69008b3dd09c04b11e65b3340df136d5a8d63f96ee"
+
+[versions]
+minecraft = "1.20.1"
+neoforge = "47.1.100"

@@ -1,0 +1,13 @@
+name = "Capable Cauldrons"
+filename = "capable_cauldrons-1.20.1-1.2.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a07b6c21046224c7f655afd4980a1c4e769fef5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4970674
+project-id = 826695
