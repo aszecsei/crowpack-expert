@@ -45,7 +45,6 @@ ServerEvents.recipes(event => {
 
         // { type: 'minecraft:crafting_shapeless', output: '#forge:dusts' },
         { type: 'minecraft:smelting', input: '#forge:raw_materials' },
-        { type: 'minecraft:blasting', input: '#forge:raw_materials' },
         { type: 'integrateddynamics:drying_basin' },
         { type: 'integrateddynamics:mechanical_drying_basin' },
         { type: 'integrateddynamics:squeezer' },

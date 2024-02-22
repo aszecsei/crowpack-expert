@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
                 A: 'endersdelight:ender_shard',
                 B: 'botania:red_string',
                 C: 'botania:dreamwood_twig',
-                D: 'botania:dreamwood_wand'
+                D: 'botania:dreamwood_wand',
             },
             id: 'entangled:item'
         }

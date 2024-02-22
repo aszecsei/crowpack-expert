@@ -570,7 +570,7 @@ hash = "a1ce027cab882eec6bc005a4e2ba3e7de1794951aa291ce841a1ee9b146c64f1"
 
 [[files]]
 file = "defaultconfigs/immersiveengineering-server.toml"
-hash = "ce44f6fcb35d8d98216d2636a851d874aeb9a406956a675b87d5a148a5677dd5"
+hash = "23c01feba2322e87d508b2a15c8193e7ca5985f14768961260421211f7bc6e97"
 
 [[files]]
 file = "defaultconfigs/noflyzone-server.toml"
@@ -591,6 +591,10 @@ hash = "ba957c34929da3ea7af4082595d43f1f7c218aec6ab6e107e5a3bfa494babbae"
 [[files]]
 file = "kubejs/README.txt"
 hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_book.png"
+hash = "2941d48d49917a7ca0ebcf43fd7763310dafea5989b319fb9db584147bedcec3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/wood_pulp.png"
@@ -1010,23 +1014,31 @@ hash = "e298b64c535f4f8476e7af174279040c646d58a69a6a12603a9633bcfa21d483"
 
 [[files]]
 file = "kubejs/server_scripts/expert/recipes/remove.js"
-hash = "3f5990b964987aac5934344505c04a71fe057738fca2da3ab1ada03a8f1baa99"
+hash = "b05462f102b474ef067b38b00aff47e8f436cad57fee6a6a48e2a547371c4173"
 
 [[files]]
 file = "kubejs/server_scripts/expert/recipes/types/create/mixing.js"
-hash = "7fa5c4d632bdc39e4841e0f8fcdce8ba0e5084bb0e427ba5e496bd6d662b34d1"
+hash = "9b3101c1016cfa0754ad1ea3b16ffd969c1c3708fa9ec426daf897f77778a957"
 
 [[files]]
 file = "kubejs/server_scripts/expert/recipes/types/create/pressing.js"
 hash = "4c4557300c7ad047d679f638aa5b46ef2161868324f943def5c2bbdd01cf5e9e"
 
 [[files]]
+file = "kubejs/server_scripts/expert/recipes/types/create/sequenced_assembly.js"
+hash = "1b7a07d732137017fc2d687249201994952580c47940d3d2464fc6d3c13a0d73"
+
+[[files]]
 file = "kubejs/server_scripts/expert/recipes/types/entangled/shaped.js"
-hash = "93e340450d1d133b98c5243301699a8136c1f105b2f47baecc8b210deb3f4a7a"
+hash = "a281c1fbccb9488f12aac84c5449d9e607bf14efc6f640b537ae3be169a17274"
+
+[[files]]
+file = "kubejs/server_scripts/expert/recipes/types/immersiveengineering/shaped.js"
+hash = "894eb2e44fff61e40f78286922b41c83f2ad9d4c202d53328a335dec55440a77"
 
 [[files]]
 file = "kubejs/server_scripts/expert/recipes/types/minecraft/shaped.js"
-hash = "f81eeefe0442ca11d01f88b3d1b1f96bedb3715040bf0c6bcd784d719a48de64"
+hash = "9b69b0d43a4fd7a65245a4a535e6c2b4b07246fdfe7f1f9c75027777d9c97674"
 
 [[files]]
 file = "kubejs/server_scripts/expert/recipes/types/minecraft/shapeless.js"
@@ -1042,7 +1054,7 @@ hash = "3a6eee47e601503af23f3067f6d70a66014ec48ac58f02059b373c54e6dd7bd5"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry.js"
-hash = "1e5919ba8abcb7f3050f5e7b3b667122923dc19dff91b2df60f0eced1fe8c73c"
+hash = "fd4c20cd5d18fd6a8e7fc7263a097ee63ac6a412cd39f53597d131b6704f3095"
 
 [[files]]
 file = "kubejs/startup_scripts/settings.js"
