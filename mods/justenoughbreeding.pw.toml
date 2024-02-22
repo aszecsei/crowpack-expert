@@ -1,0 +1,13 @@
+name = "Just Enough Breeding (JEBr)"
+filename = "justenoughbreeding-neoforge-1.20.1-1.0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d51ba64f457fceff8f742e30a656d4be2c129c67"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4975757
+project-id = 899386

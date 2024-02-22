@@ -1,64 +1,58 @@
-// packmode: expert
+// packmode:expert
 
 ServerEvents.recipes(event => {
-    const idRemovals = [
-        'immersiveengineering:crafting/component_iron',
-        'immersiveengineering:crafting/component_steel',
-        'immersiveengineering:crafting/concrete',
-        'immersiveengineering:crafting/concrete2',
-        'immersiveengineering:mixer/concrete',
-        /immersiveengineering:crafting\/plate_/,
-        'immersiveengineering:crafting/cokebrick',
-        'immersiveengineering:crafting/blastbrick',
-        'immersiveengineering:crafting/alloybrick',
-        'immersiveengineering:generator_fuel/biodiesel',
-        'immersiveengineering:generator_fuel/creosote',
+    const recipes = [
+        { mod: 'computercraft' },
+        { mod: 'shrink' },
 
-        'modularrouters:energy_upgrade',
-        'modularrouters:sender_module_1_alt',
+        { id: 'minecraft:book' },
+        { id: 'minecraft:leather_to_stripes' },
+        { id: 'minecraft:stick' },
+        { id: 'minecraft:golden_carrot' },
+        { id: 'minecraft:glistering_melon_slice' },
+        { id: 'minecraft:golden_apple' },
+        { id: 'minecraft:lodestone' },
+        { mod: 'quark', output: 'minecraft:furnace' },
 
-        'pedestals:ingot_gold_from_upgrades',
-        'pedestals:upgrades/breaker2',
-        'pedestals:upgrades/crafter1mk2',
-        'pedestals:upgrades/recycler',
-        'pedestals:upgrades/rfexpgen',
-        'pedestals:upgrades/rffuelgen',
+        { id: 'mininggadgets:upgrade_empty' },
 
-        'sophisticatedbackpacks:feeding_upgrade',
-        'sophisticatedbackpacks:advanced_feeding_upgrade',
-        'sophisticatedbackpacks:auto_smelting_upgrade',
-        'sophisticatedbackpacks:pump_upgrade',
-        'sophisticatedbackpacks:advanced_pump_upgrade',
-        'sophisticatedbackpacks:xp_pump_upgrade',
-        'sophisticatedbackpacks:advanced_compacting_upgrade',
-        'sophisticatedbackpacks:tool_swapper_upgrade',
-        'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
-        'sophisticatedbackpacks:refill_upgrade',
+        { id: 'modularrouters:energy_upgrade' },
+        { id: 'modularrouters:sender_module_1_alt' },
 
-        'minecraft:book',
-        'minecraft:leather_to_stripes',
-        'minecraft:stick',
-        'minecraft:golden_carrot',
-        'minecraft:glistering_melon_slice',
-        'minecraft:golden_apple',
-        'minecraft:lodestone',
+        { id: 'pedestals:ingot_gold_from_upgrades' },
+        { id: 'pedestals:upgrades/breaker2' },
+        { id: 'pedestals:upgrades/crafter1mk2' },
+        { id: 'pedestals:upgrades/recycler' },
+        { id: 'pedestals:upgrades/rfexpgen' },
+        { id: 'pedestals:upgrades/rffuelgen' },
 
-        'waystones:warp_dust',
+        { id: 'pneumaticcraft:explosion_crafting/compressed_iron_block' },
+        { id: 'pneumaticcraft:explosion_crafting/compressed_iron_ingot' },
+        { id: 'pneumaticcraft:speed_upgrade' },
+        { id: 'pneumaticcraft:reinforced_stone' },
+
+        { mod: 'sophisticatedbackpacks' },
+
+        { id: 'waystones:warp_dust' },
+        { id: /create:crafting\/materials\/andesite_alloy/ },
+
+        { output: 'tiab:timeinabottle' },
+        { output: 'minecraft:nautilus_shell' },
+        { output: 'bloodmagic:intermediatecuttingfluid' },
+
+        { type: 'minecraft:crafting_shapeless', output: '#forge:dusts' },
+        { type: 'minecraft:smelting', input: '#forge:raw_materials' },
+        { type: 'minecraft:blasting', input: '#forge:raw_materials' },
+        { type: 'integrateddynamics:drying_basin' },
+        { type: 'integrateddynamics:mechanical_drying_basin' },
+        { type: 'integrateddynamics:squeezer' },
+        { type: 'integrateddynamics:mechanical_squeezer' },
     ]
 
-    const outputRemovals = [
-        'tiab:timeinabottle',
-        'minecraft:nautilus_shell',
-    ]
-
-    idRemovals.forEach((id) => {
-        event.remove({ id: id });
+    let amt = 0
+    recipes.forEach(recipe => {
+        event.remove(recipe)
+        amt++
     })
-
-    outputRemovals.forEach((output) => {
-        event.remove({ output: output });
-    })
-
-    event.remove({ type: 'minecraft:crafting_shapeless', output: '#forge:dusts', mod: 'thermal' });
-    event.remove({ type: 'minecraft:crafting_shapeless', output: '#forge:dusts', mod: 'immersiveengineering' });
+    console.info(`Removed ${amt} recipes.`)
 })

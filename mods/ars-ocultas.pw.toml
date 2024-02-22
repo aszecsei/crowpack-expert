@@ -1,0 +1,13 @@
+name = "Ars Ocultas"
+filename = "ars_ocultas-1.20.1-1.2.1-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7743476573d3a71ee7a19340dec8c153be2c262b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5056156
+project-id = 907843
