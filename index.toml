@@ -17,6 +17,58 @@ file = "config/Advancedperipherals/world.toml"
 hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
+file = "config/Mekanism/client.toml"
+hash = "76132360abda99a40eccbead1433ccb688f5cca9b39cae1f568eb823947b576c"
+
+[[files]]
+file = "config/Mekanism/common.toml"
+hash = "dab6dbae43bb67fd6a10438c0cbf997c70560c6af3493b60330ac9248587905d"
+
+[[files]]
+file = "config/Mekanism/gear.toml"
+hash = "04a7c6e344d9f60ee95a5ddc4dfeccf7aab98df7120eb7a29d7f7dbb69ca4d08"
+
+[[files]]
+file = "config/Mekanism/general.toml"
+hash = "ed3012efc424ba4ea7555eb9c65eee84cbb7d07d0a74f2f7fef5b3cc2c51f694"
+
+[[files]]
+file = "config/Mekanism/generator-storage.toml"
+hash = "db6aa0b38e4dadfe9fae3970599c415d96058e1a47363180d63c647ccd20d084"
+
+[[files]]
+file = "config/Mekanism/generators-gear.toml"
+hash = "b3c50755f421aff5ba6b23a9b1aa8dddf9be0d200b363635134db3ee68e11338"
+
+[[files]]
+file = "config/Mekanism/generators.toml"
+hash = "c861d7b1b9438b6950d503a80e9e16cf64b010bf2688d2c3e003410590682560"
+
+[[files]]
+file = "config/Mekanism/machine-storage.toml"
+hash = "ade378e93c7dd046ee9317c424a3675784034ef23602b9d25a57c8a048face5f"
+
+[[files]]
+file = "config/Mekanism/machine-usage.toml"
+hash = "9b8b7a7532f4f5bfaa17613677a904a48b1503db660e22084949192b1945eb86"
+
+[[files]]
+file = "config/Mekanism/tiers.toml"
+hash = "c9bac7a9ff512efaf495ce5d89299a5c6533cecae11d3c87c9bc2a28595db77e"
+
+[[files]]
+file = "config/Mekanism/tools-client.toml"
+hash = "adf9f43d65b332f8212d72dd847cdd19ff3f92bd80dd072011adcc53758db747"
+
+[[files]]
+file = "config/Mekanism/tools.toml"
+hash = "6e82f7c5434e96eb928c6c9f1c3d4108dd07debc48001c4fa7a38689edcca032"
+
+[[files]]
+file = "config/Mekanism/world.toml"
+hash = "89ad840e1bc9c1460f3aec7542c099377936379bc80e30b7784529c9fd4df276"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "2b4592dca53600318a7123befb79193bd261a44739b203d3e01d56eddbf2e27e"
 
@@ -38,7 +90,7 @@ hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "e297eb2967219f1fb3d4a297ea87a17bb2505ee8704be93b423bc680bc4cae35"
+hash = "551513fd703e2aaf41ed04074e2cc2818dad95709f78a078f5f55c7575726889"
 
 [[files]]
 file = "config/angelring-common.toml"
@@ -489,6 +541,10 @@ file = "config/sparsetructuresreforged.json"
 hash = "af2291e2732964d704418fb6128a1f40807defd9e3188ae27a99fbbc8a5e901f"
 
 [[files]]
+file = "config/thermal-common.toml"
+hash = "c18e41117731bae180cdf2662685ccd1839b9b65d5bfa8a699176bcfa17c9d4a"
+
+[[files]]
 file = "config/twilightforest-common.toml"
 hash = "173f702fd6c6c2f713c1259516a9023f970995853a5664d96b9e34158e7a2ccd"
 
@@ -535,6 +591,10 @@ hash = "ba957c34929da3ea7af4082595d43f1f7c218aec6ab6e107e5a3bfa494babbae"
 [[files]]
 file = "kubejs/README.txt"
 hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/wood_pulp.png"
+hash = "e07da55fbca187d8c3d25260938f4907bf8736e072a08cb96863ecc85f7ccc82"
 
 [[files]]
 file = "kubejs/client_scripts/jei.js"
@@ -909,10 +969,6 @@ file = "kubejs/server_scripts/base/player/starting_items.js"
 hash = "9cd8cd81104e101ac51ee57c0aac8559291ec5fbda752acad7713dfd837640b6"
 
 [[files]]
-file = "kubejs/server_scripts/base/recipes/mods/minecraft/blasting.js"
-hash = "395e0bbc2ea1225264d24bdf6468f2e2b8fe4b942cc14d1b532c1777868d0e90"
-
-[[files]]
 file = "kubejs/server_scripts/base/recipes/remove.js"
 hash = "cb02f5337a0acabebe80a3c23e5b243a2f7701d2fb99a9038e15fe9049bb21cb"
 
@@ -921,16 +977,24 @@ file = "kubejs/server_scripts/base/recipes/replace.js"
 hash = "cd262e228b638e066c6bd5eb845858c55091f51d46721044a3fe751ce7565607"
 
 [[files]]
-file = "kubejs/server_scripts/base/recipes/shaped.js"
+file = "kubejs/server_scripts/base/recipes/types/minecraft/blasting.js"
+hash = "395e0bbc2ea1225264d24bdf6468f2e2b8fe4b942cc14d1b532c1777868d0e90"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/types/minecraft/shaped.js"
 hash = "878ed139d5da9a6e5f5abf9f7c07d104e5b5c105fdbce47fbdb88621dbb432be"
 
 [[files]]
-file = "kubejs/server_scripts/base/recipes/shapeless.js"
+file = "kubejs/server_scripts/base/recipes/types/minecraft/shapeless.js"
 hash = "3f39c7e59b34aaeabeaa0c6c88bf23c3cd9e449f0bd344ef02e6725791de0e11"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags/items/thermal/dies.js"
 hash = "cfefdd6f7e37c4da516adfe96b07c505b0992a053081a5544410703c50f914ef"
+
+[[files]]
+file = "kubejs/server_scripts/base/unification/dusts.js"
+hash = "19b41c6a9ef216c50c9f84f62628c9d1c2d348c3299b6d004813b230fc5a5dab"
 
 [[files]]
 file = "kubejs/server_scripts/constants/dies.js"
@@ -941,12 +1005,32 @@ file = "kubejs/server_scripts/constants/disabled_items.js"
 hash = "c8a46ee844bce986cd0fb3650de746a44fdd21bf5a1c4c2d142daee8219c5385"
 
 [[files]]
-file = "kubejs/server_scripts/expert/recipes/mods/minecraft/shaped.js"
-hash = "f81eeefe0442ca11d01f88b3d1b1f96bedb3715040bf0c6bcd784d719a48de64"
+file = "kubejs/server_scripts/constants/unify.js"
+hash = "e298b64c535f4f8476e7af174279040c646d58a69a6a12603a9633bcfa21d483"
 
 [[files]]
 file = "kubejs/server_scripts/expert/recipes/remove.js"
-hash = "4b68da22d688a776931513a1b087c8e68db2f8483c5f06787cd328697085a051"
+hash = "3f5990b964987aac5934344505c04a71fe057738fca2da3ab1ada03a8f1baa99"
+
+[[files]]
+file = "kubejs/server_scripts/expert/recipes/types/create/mixing.js"
+hash = "7fa5c4d632bdc39e4841e0f8fcdce8ba0e5084bb0e427ba5e496bd6d662b34d1"
+
+[[files]]
+file = "kubejs/server_scripts/expert/recipes/types/create/pressing.js"
+hash = "4c4557300c7ad047d679f638aa5b46ef2161868324f943def5c2bbdd01cf5e9e"
+
+[[files]]
+file = "kubejs/server_scripts/expert/recipes/types/entangled/shaped.js"
+hash = "93e340450d1d133b98c5243301699a8136c1f105b2f47baecc8b210deb3f4a7a"
+
+[[files]]
+file = "kubejs/server_scripts/expert/recipes/types/minecraft/shaped.js"
+hash = "f81eeefe0442ca11d01f88b3d1b1f96bedb3715040bf0c6bcd784d719a48de64"
+
+[[files]]
+file = "kubejs/server_scripts/expert/recipes/types/minecraft/shapeless.js"
+hash = "e491abd8e588569baf87f240a79fd269303c068ad3f37c83d60156a3eabd1659"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
@@ -957,8 +1041,16 @@ file = "kubejs/startup_scripts/better_stacks.js"
 hash = "3a6eee47e601503af23f3067f6d70a66014ec48ac58f02059b373c54e6dd7bd5"
 
 [[files]]
+file = "kubejs/startup_scripts/item_registry.js"
+hash = "1e5919ba8abcb7f3050f5e7b3b667122923dc19dff91b2df60f0eced1fe8c73c"
+
+[[files]]
 file = "kubejs/startup_scripts/settings.js"
 hash = "9324546607d86f4509ab7f34a45e97b4645f78caf243783db347f0a1d4f44603"
+
+[[files]]
+file = "kubejs/startup_scripts/worldgen.js"
+hash = "9f418b7f707bf3840841cc0f52e0b260bc4014e2abda7041ab234e443f5d07bf"
 
 [[files]]
 file = "mods/absent-by-design.pw.toml"
@@ -1576,6 +1668,11 @@ hash = "64e7e950b2204ccfc705dd66d17dbabdb9e8ad2d85175c28df059cb8ec0bdc3d"
 metafile = true
 
 [[files]]
+file = "mods/entangled.pw.toml"
+hash = "18ccf65d938b5d5c3a6d002d43af0414b8e60bbf8e833bbf4db86f25891f80b5"
+metafile = true
+
+[[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "44d71ce7b1833540fd263d72d5c82aeb6ad5da74157fe4f8c9c2c6bcf516a076"
 metafile = true
@@ -1841,6 +1938,11 @@ hash = "69a883e84cdb66bd93ca7eec1393964f1a346fa4c16062cf4c698e21009acc2a"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-calculation.pw.toml"
+hash = "712ac3e3cca6cd0478dfeafac21f7926dba0c54763144ae168ed200d894e6464"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
 hash = "888e8d5378d59da32a2717cd1adb62eca8ac93d3dedc81d4359e0a9f68d7d307"
 metafile = true
@@ -1908,6 +2010,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "1ed11dd4de7ec866ab5cdfd18dc022c0512549012647bffedffde7efc1c933f9"
+metafile = true
+
+[[files]]
+file = "mods/l2library.pw.toml"
+hash = "5475feaa1518484163dfc6112bd86abf97c872209254114fd4ce9fc1a7e8d01e"
 metafile = true
 
 [[files]]
@@ -2058,6 +2165,11 @@ metafile = true
 [[files]]
 file = "mods/modular-routers.pw.toml"
 hash = "6bcf7a39bad33980cfd720cc78b1e2fe703f7cf0635c00a59948a561c66bf2e0"
+metafile = true
+
+[[files]]
+file = "mods/modulargolems.pw.toml"
+hash = "80dd5bdb29182f4f4075235084483fe6f5dc1afb8985c6751116b0137558206b"
 metafile = true
 
 [[files]]

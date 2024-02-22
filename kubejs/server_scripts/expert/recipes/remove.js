@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
         { mod: 'computercraft' },
         { mod: 'shrink' },
 
+        { output: 'minecraft:paper' },
         { id: 'minecraft:book' },
         { id: 'minecraft:leather_to_stripes' },
         { id: 'minecraft:stick' },
@@ -31,6 +32,8 @@ ServerEvents.recipes(event => {
         { id: 'pneumaticcraft:speed_upgrade' },
         { id: 'pneumaticcraft:reinforced_stone' },
 
+        { input: 'immersiveengineering:hammer' },
+
         { mod: 'sophisticatedbackpacks' },
 
         { id: 'waystones:warp_dust' },
@@ -40,7 +43,7 @@ ServerEvents.recipes(event => {
         { output: 'minecraft:nautilus_shell' },
         { output: 'bloodmagic:intermediatecuttingfluid' },
 
-        { type: 'minecraft:crafting_shapeless', output: '#forge:dusts' },
+        // { type: 'minecraft:crafting_shapeless', output: '#forge:dusts' },
         { type: 'minecraft:smelting', input: '#forge:raw_materials' },
         { type: 'minecraft:blasting', input: '#forge:raw_materials' },
         { type: 'integrateddynamics:drying_basin' },
